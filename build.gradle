@@ -13,18 +13,14 @@ buildscript {
 
 
 
-//springBoot {
-//	mainClass = 'com.mindex.challenge.ChallengeApplication'
-//}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'application'
 mainClassName = 'com.mindex.challenge.ChallengeApplication'
-//application {
-//	mainClass = 'com.mindex.challenge.ChallengeApplication'
-//}
+
 
 group = 'com.mindex'
 version = '0.0.1-SNAPSHOT'
